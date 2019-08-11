@@ -8,6 +8,6 @@
         <title>MyNews</title>
     </head>
     <body>
-        <h1>初めての方へ</h1>
+        <h1>出店希望の方</h1>
     </body>
 </html>
