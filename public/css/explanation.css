@@ -2,7 +2,11 @@ h1 {
 color: green;
 }
 
+p1{
+width: 320px;    
+}
+
 img {
-max-width: 100%;
+width: 300px;
 height: auto;
 }
