@@ -22,6 +22,7 @@
                 </div>
                 <div class="col-xs-6">
                      <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+	                 <button type="button" class="btn-sm">左</button>
                 </div>
             </div>
         </div>
