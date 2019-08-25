@@ -14,16 +14,54 @@
           <li>お気に入り</li>
        </ul>
 </header>
-    <div class="glovalNavigation">
-       <p>グローバルナビゲーション</p>
-    </div>
+    {{--
+    --<div class="glovalNavigation">
+      -- <p>グローバルナビゲーション</p>
+    --</div>
+    グローバルナビゲーションはコメントアウト--}}
+    
     <div class="content">
-        <p>コンテンツ</p>
-        
+       <p>コンテンツ</p>
+       <caption>【カテゴリー一覧】</caption>
+       <table border=1>
+       <tr>
+           <th>ヘッダ－1</th>
+           <th>ヘッダ－2</th>
+           <th>ヘッダ－3</th>
+       </tr>
+       <tr>
+          <td>ハウスクリーニング</td>
+          <td>キッチンクリーニング</td>
+          <td>洗面所クリーニング</td>
+    　 </tr>
+    　 <tr>
+          <td>トイレクリーニング</td>
+          <td>水回りクリーニング</td>
+          <td>戸建て・一軒家クリーニング</td>
+       </tr>
+       <tr>
+          <td>マンションクリーニング</td>
+          <td>ベランダ・バルコニークリーニング</td>
+          <td>窓掃除・サッシクリーニング</td>
+       </tr>
+       <tr>
+          <td>冷蔵庫クリーニング</td>
+          <td>お部屋の消臭・脱臭</td>
+          <td>ノロウイルス消毒</td>
+       </tr>
+       <tr>   
+          <td>リフォーム・家の修繕</td>
+          <td>ふすま張り替え</td>
+          <td>障子張り替え</td>
+       </tr>
+       
+       </table>
     </div>
+    
     <div class="localNavigation">
         <p>ローカルナビゲーション</p>
     </div>
+    
 <footer class="footer">
         <p>フッター</p>
 </footer>
