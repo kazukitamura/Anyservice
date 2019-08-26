@@ -8,7 +8,7 @@
   
 <header class="header">
        <ul class="example">
-          <li><a href="{{ action('Admin\UserController@explanation')}}">あなたのマイスターとは?</a></li>
+          <li><a href="{{ action('Admin\UserController@explanation')}}">エニーサービスとは?</a></li>
           {{-- action 関数は、指定するコントローラアクションに対するURLを生成します。 --}}
           <li>出店希望の方へ</li>
           <li>お気に入り</li>
