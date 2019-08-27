@@ -32,11 +32,11 @@
 <form action="/posts" method="POST">
     {{ csrf_field() }}
     <div>
-        <label>Title</label><br>
+        <label>タイトル</label><br>
         <input type="text" name="title" />
     </div>
     <div>
-        <label>Body</label><br>
+        <label>本文</label><br>
         <textarea name="body"></textarea>
     </div>
     <div>

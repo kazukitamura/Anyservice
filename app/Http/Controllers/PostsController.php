@@ -12,7 +12,7 @@ class PostsController extends Controller
     //
     public function index()
     {
-        return view('posts.index')->with([ 'posts' => Post::all() ]);
+        return view('posts.contact')->with([ 'posts' => Post::all() ]);
     }
 
     public function store(Request $request)
@@ -27,6 +27,6 @@ class PostsController extends Controller
         }
 
         Post::create($request->all());
-        return redirect('posts');
+        return redirect('contact');
     }
 }
